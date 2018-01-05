@@ -50,14 +50,42 @@ nav ul li a:before{
   top: 100%;
   left: 0;
   bottom: 0;
+  mix-blend-mode: multiply;
+  transition: .9s all;
+}
+/*
+nav ul li:hover a:before{
+  width: 40%;
+  transform: translateX(122%);
+}
 
+*/
+
+nav ul li a:after{
+  content: '';
+  width: 0px;
+  height: 5px;
+  position: absolute;
+  background: #EE0569;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+mix-blend-mode: multiply;
   transition: .9s all;
 }
 
 nav ul li:hover a:before{
   width: 40%;
-  transform: translateX(122%);
+  transform: translateX(125%);
 }
+
+
+nav ul li:hover a:after{
+  width: 40%;
+  transform: translateX(-125%);
+}
+
+
 .navbar{
   font-size: 1.2em;
 }
@@ -107,6 +135,8 @@ nav ul li:hover a:before{
   background-image: url("./media/background-three.jpeg");
   min-height: 500px;
 }
+
+
 
 .section{
   text-align: center;
