@@ -74,8 +74,8 @@ $(document).ready(function() {
       var bv = $form.data('bootstrapValidator');
 
       // Use Ajax to submit form data
-      var url = 'https://script.google.com/macros/s/AKfycbzJCnVqIkj4sG4Bp-5lSr7Wo5IfK-_YMvjx3EMimUTITtCSH1Ns/exec';
-
+    //  var url = 'https://script.google.com/macros/s/AKfycbzJCnVqIkj4sG4Bp-5lSr7Wo5IfK-_YMvjx3EMimUTITtCSH1Ns/exec';
+var url ='https://script.google.com/macros/s/AKfycbzJCnVqIkj4sG4Bp-5lSr7Wo5IfK-_YMvjx3EMimUTITtCSH1Ns/exec';
       // show the loading
       $('#postForm').append($('<i></i>').addClass('fa fa-refresh fa-spin'));
       var jqxhr = $.post(url, $form.serialize(), function(data) {
@@ -86,7 +86,7 @@ $(document).ready(function() {
         $('i').remove('.fa, .fa-refresh, .fa-spin')
 
         document.getElementById('postForm').disabled = true;
-    
+
 
         })
         .fail(function(data) {

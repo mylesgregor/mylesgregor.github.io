@@ -197,6 +197,10 @@ nav ul li:hover a:after{
   text-transform: uppercase;
   color: white;
   letter-spacing: 8px;
+
+  top: 0%;
+  width: 0%;
+  text-align: center;
 }
 
 /*
