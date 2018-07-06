@@ -1,3 +1,4 @@
+
 body, html{
   height: 100%;
   position: relative;
@@ -190,6 +191,14 @@ nav ul li:hover a:after{
 .connect{
 
 }
+
+
+.contact-modal{
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 8px;
+}
+
 /*
 .active-hover{
   width: 120px;
