@@ -203,6 +203,16 @@ nav ul li:hover a:after{
   text-align: center;
 }
 
+
+.portfolio-item{
+  margin-bottom: 30px;
+  color: black;
+}
+
+
+@@media (min-width: 992px) {
+
+}
 /*
 .active-hover{
   width: 120px;
