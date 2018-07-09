@@ -83,7 +83,7 @@ var url ='https://script.google.com/macros/s/AKfycbzJCnVqIkj4sG4Bp-5lSr7Wo5IfK-_
         //  $(location).attr('href', redirectUrl);
         document.getElementById('successINFO').innerHTML = 'SUCCESS!';
 
-        $('i').remove('.fa, .fa-refresh, .fa-spin')
+        $('#postForm').remove();
 
         document.getElementById('postForm').disabled = true;
 
