@@ -1,0 +1,46 @@
+body{
+  font-family: monospace;
+  background-image: url('blackboard.jpg');
+
+
+  background-position: center;
+  background-size: cover;
+
+}
+
+.title-font{
+  font-family: Shrikhand;
+
+  color: #EC407A;
+
+}
+
+.subtitle-font{
+
+  color: #4DD0E1;
+}
+
+.expression-calc{
+
+  font-size: 34px;
+  color: white;
+}
+
+.study-msg{
+  font-size: 24px;
+  color: #7D3C98 ;
+}
+
+.term-label{
+  font-size:38px;
+  font-weight: bold;
+  color: #29B6F6  ;
+}
+.main-display
+{
+
+}
+
+.expresCALC{
+  color: #A6ACAF  ;
+}
