@@ -1,0 +1,66 @@
+body, html{
+  height: 100%;
+}
+body{
+}
+
+.parallax1, .parallax2, .parallax3 {
+
+
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header{
+  background-color: white;
+  font-size: 60px;
+
+
+}
+.subheader{
+  background-color: white;
+  font-size: 30px;
+  color: #C0C0C0;
+  font-style: italic;
+
+}
+.parallax1{
+  background-image: url("nyc.jpg");
+}
+
+.parallax2{
+  background-image: url("circuitboard.jpg");
+}
+.parallax3{
+  background-image: url("walking2.jpg");
+}
+
+.section{
+  text-align: center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.team-image{
+
+height: 425px;
+width: 300px;
+
+}
+/*<!-- Container element -->
+<div class="parallax"></div>
+
+background-position: center;
+background-size: cover;*/
